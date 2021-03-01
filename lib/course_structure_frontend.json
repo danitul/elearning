@@ -1,0 +1,928 @@
+{
+    "courseId": "presenting",
+    "title": "presentingCourseTitle",
+    "label": "presentingLabel",
+    "link": "presentingCourseLink",
+    "image": "presentingCourseImage",
+    "initialText": "presentingInitialText",
+    "introText": "presentingIntroText",
+    "text": "presentingCourseText",
+    "lessons": [
+        {
+            "name": "lesson1",
+            "image": "presentingLesson1Image",
+            "index": 0,
+            "icon": "file",
+            "title": "presentingLesson1Title",
+            "pdf": "presentingLesson1PDF",
+            "popupMessage": "presentingLesson1PopupMessage",
+            "assignments": [
+                {
+                    "index": 0,
+                    "name": "assignment1",
+                    "icon": "video play",
+                    "title": "presentingLesson1Assign1Title",
+                    "type": "watch",
+                    "video": "presentingLesson1Assign1Video",
+                    "time": "presentingLesson1Assign1Time",
+                    "email": false
+                },
+                {
+                    "index": 1,
+                    "name": "assignment2",
+                    "icon": "file alternate",
+                    "title": "presentingLesson1Assign2Title",
+                    "pdf_attach": "presentingLesson1Assign2PDF",
+                    "PDFname": "presentingLesson1Assign2PDFName",
+                    "PDFPreview": "presentingLesson1Assign2PDFPreview",
+                    "text": "presentingLesson1Assign2PDFText",
+                    "checkBox": "true",
+                    "checkBoxText": "presentingLesson1Assign2CheckboxText",
+                    "type": "read",
+                    "time": "presentingLesson1Assign2Time",
+                    "email": false
+                },
+                {
+                    "index": 2,
+                    "name": "assignment3",
+                    "icon": "pencil alternate",
+                    "title": "presentingLesson1Assign3Title",
+                    "type": "quiz",
+                    "questionary": false,
+                    "initial_text": "presentingLesson1Assign3InitialText",
+                    "final_text": "presentingLesson1Assign3FinalText",
+                    "time": "presentingLesson1Assign2Time",
+                    "email": true,
+                    "email_info": [
+                        {
+                            "type": "quiz",
+                            "recipient": "simon@vcoach.ai,stephanie.mayer@vcoach.ai"
+                        }
+                    ],
+                    "questions": [
+                        {
+                            "id": "0",
+                            "title": "presentingLesson1Assign2Question1Title",
+                            "question": "presentingLesson1Assign2Question1Question",
+                            "type": "radio",
+                            "options": [
+                                {
+                                    "id": 1,
+                                    "option": "presentingLesson1Assign2Question1Option1"
+                                },
+                                {
+                                    "id": 2,
+                                    "option": "presentingLesson1Assign2Question1Option2"
+                                },
+                                {
+                                    "id": 3,
+                                    "option": "presentingLesson1Assign2Question1Option3"
+                                },
+                                {
+                                    "id": 4,
+                                    "option": "presentingLesson1Assign2Question1Option4"
+                                },
+                                {
+                                    "id": 5,
+                                    "option": "presentingLesson1Assign2Question1Option5"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1",
+                            "title": "presentingLesson1Assign2Question2Title",
+                            "question": "presentingLesson1Assign2Question2Question",
+                            "type": "radio",
+                            "options": [
+                                {
+                                    "id": 1,
+                                    "option": "presentingLesson1Assign2Question2Option1"
+                                },
+                                {
+                                    "id": 2,
+                                    "option": "presentingLesson1Assign2Question2Option2"
+                                },
+                                {
+                                    "id": 3,
+                                    "option": "presentingLesson1Assign2Question2Option3"
+                                },
+                                {
+                                    "id": 4,
+                                    "option": "presentingLesson1Assign2Question2Option4"
+                                },
+                                {
+                                    "id": 5,
+                                    "option": "presentingLesson1Assign2Question2Option5"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "title": "presentingLesson1Assign2Question3Title",
+                            "question": "presentingLesson1Assign2Question3Question",
+                            "type": "radio",
+                            "options": [
+                                {
+                                    "id": 1,
+                                    "option": "presentingLesson1Assign2Question3Option1"
+                                },
+                                {
+                                    "id": 2,
+                                    "option": "presentingLesson1Assign2Question3Option2"
+                                },
+                                {
+                                    "id": 3,
+                                    "option": "presentingLesson1Assign2Question3Option3"
+                                },
+                                {
+                                    "id": 4,
+                                    "option": "presentingLesson1Assign2Question3Option4"
+                                },
+                                {
+                                    "id": 5,
+                                    "option": "presentingLesson1Assign2Question3Option5"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3",
+                            "title": "presentingLesson1Assign2Question4Title",
+                            "question": "presentingLesson1Assign2Question4Question",
+                            "type": "radio",
+                            "options": [
+                                {
+                                    "id": 1,
+                                    "option": "presentingLesson1Assign2Question4Option1"
+                                },
+                                {
+                                    "id": 2,
+                                    "option": "presentingLesson1Assign2Question4Option2"
+                                },
+                                {
+                                    "id": 3,
+                                    "option": "presentingLesson1Assign2Question4Option3"
+                                },
+                                {
+                                    "id": 4,
+                                    "option": "presentingLesson1Assign2Question4Option4"
+                                },
+                                {
+                                    "id": 5,
+                                    "option": "presentingLesson1Assign2Question4Option5"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4",
+                            "title": "presentingLesson1Assign2Question5Title",
+                            "question": "presentingLesson1Assign2Question5Question",
+                            "type": "radio",
+                            "options": [
+                                {
+                                    "id": 1,
+                                    "option": "presentingLesson1Assign2Question5Option1"
+                                },
+                                {
+                                    "id": 2,
+                                    "option": "presentingLesson1Assign2Question5Option2"
+                                },
+                                {
+                                    "id": 3,
+                                    "option": "presentingLesson1Assign2Question5Option3"
+                                },
+                                {
+                                    "id": 4,
+                                    "option": "presentingLesson1Assign2Question5Option4"
+                                },
+                                {
+                                    "id": 5,
+                                    "option": "presentingLesson1Assign2Question5Option5"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lesson2",
+            "image": "presentingLesson2Image",
+            "index": 1,
+            "icon": "video camera",
+            "title": "presentingLesson2Title",
+            "pdf": "presentingLesson2PDF",
+            "popupMessage": "presentingLesson2PopupMessage",
+            "assignments": [
+                {
+                    "index": 0,
+                    "name": "assignment1",
+                    "icon": "file alternate",
+                    "title": "presentingLesson2Assign1Title",
+                    "pdf_attach": "presentingLesson2Assign1PDF",
+                    "PDFname": "presentingLesson2Assign1PDFName",
+                    "PDFPreview": "presentingLesson2Assign1PDFPreview",
+                    "text": "presentingLesson2Assign1Text",
+                    "checkBox": "true",
+                    "checkBoxText": "presentingLesson2Assign1CheckboxText",
+                    "type": "read",
+                    "time": "presentingLesson2Assign1Time",
+                    "email": false
+                },
+                {
+                    "index": 1,
+                    "name": "assignment2",
+                    "icon": "video camera",
+                    "title": "presentingLesson2Assign2Title",
+                    "text": "presentingLesson2Assign2Text",
+                    "type": "video",
+                    "time": "presentingLesson2Assign2Time",
+                    "email": true,
+                    "email_info": [
+                        {
+                            "type": "video",
+                            "recipient": "simon@vcoach.ai"
+                        }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "assignment3",
+                    "icon": "file pdf",
+                    "title": "presentingLesson2Assign3Title",
+                    "type": "feedback",
+                    "PDFPreviewGray": "presentingLesson2Assign3PDFPreviewGray",
+                    "PDFPreview": "presentingLesson2Assign3PDFPreview",
+                    "alternative_text": "presentingLesson2Assign3AlternativeText",
+                    "text": "presentingLesson2Assign3Text",
+                    "checkBox": "true",
+                    "checkBoxText": "presentingLesson2Assign3CheckboxText",
+                    "time": "presentingLesson2Assign3Time",
+                    "email": false
+                },
+                {
+                    "index": 3,
+                    "name": "assignment4",
+                    "icon": "pencil alternate",
+                    "title": "presentingLesson2Assign4Title",
+                    "type": "exercise",
+                    "PDFPreviewGrayGray": "presentingLesson2Assign4PDFPreviewGray",
+                    "PDFPreview": "presentingLesson2Assign4PDFPreview",
+                    "alternative_text": "presentingLesson2Assign4AlternativeText",
+                    "text": "presentingLesson2Assign4Text",
+                    "checkBox": "true",
+                    "checkBoxText": "presentingLesson2Assign4CheckboxText",
+                    "time": "presentingLesson2Assign4Time",
+                    "email": true,
+                    "email_info": [
+                        {
+                            "type": "feedback",
+                            "variables":{"round": "_1"},
+                            "fileName": "email_feedback_ready.json"
+                        },
+                        {
+                            "type": "reminder",
+                            "hours": 48,
+                            "fileName": "email_user_ueben_1.json",
+                            "logic": {
+                                "type": "isDone",
+                                "assignment": "assignment4",
+                                "lesson": "lesson2"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lesson3",
+            "image": "presentingLesson3Image",
+            "index": 2,
+            "icon": "video camera",
+            "title": "presentingLesson3Title",
+            "pdf": "presentingLesson3PDF",
+            "popupMessage": "presentingLesson3PopupMessage",
+            "assignments": [
+                {
+                    "index": 0,
+                    "name": "assignment1",
+                    "icon": "file alternate",
+                    "title": "presentingLesson3Assign1Title",
+                    "pdf_attach": "presentingLesson3Assign1PDF",
+                    "PDFname": "presentingLesson3Assign1PDFName",
+                    "PDFPreview": "presentingLesson3Assign1PDFPreview",
+                    "text": "presentingLesson3Assign1Text",
+                    "checkBox": "true",
+                    "checkBoxText": "presentingLesson3Assign1CheckboxText",
+                    "type": "read",
+                    "time": "presentingLesson3Assign1Time",
+                    "email": false
+                },
+                {
+                    "index": 1,
+                    "name": "assignment2",
+                    "icon": "video camera",
+                    "title": "presentingLesson3Assign2Title",
+                    "text": "presentingLesson3Assign2Text",
+                    "type": "video",
+                    "time": "presentingLesson3Assign2Time",
+                    "email": true,
+                    "email_info": [
+                        {
+                            "type": "video",
+                            "recipient": "simon@vcoach.ai"
+                        }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "assignment3",
+                    "icon": "file pdf",
+                    "title": "presentingLesson3Assign3Title",
+                    "type": "feedback",
+                    "PDFPreviewGray": "presentingLesson3Assign3PDFPreviewGray",
+                    "PDFPreview": "presentingLesson3Assign3PDFPreview",
+                    "alternative_text": "presentingLesson3Assign3AlternativeText",
+                    "text": "presentingLesson3Assign3Text",
+                    "checkBox": "true",
+                    "checkBoxText": "presentingLesson3Assign3CheckboxText",
+                    "time": "presentingLesson3Assign3Time",
+                    "email": false
+                },
+                {
+                    "index": 3,
+                    "name": "assignment4",
+                    "icon": "pencil alternate",
+                    "title": "presentingLesson3Assign4Title",
+                    "type": "exercise",
+                    "PDFPreviewGrayGray": "presentingLesson3Assign4PDFPreviewGray",
+                    "PDFPreview": "presentingLesson3Assign4PDFPreview",
+                    "alternative_text": "presentingLesson3Assign4AlternativeText",
+                    "text": "presentingLesson3Assign4Text",
+                    "checkBox": "true",
+                    "checkBoxText": "presentingLesson3Assign4CheckboxText",
+                    "time": "presentingLesson3Assign4Time",
+                    "email": true,
+                    "email_info": [
+                        {
+                            "type": "feedback",
+                            "variables":{"round": "_2"},
+                            "fileName": "email_feedback_ready.json"
+                        },
+                        {
+                            "type": "reminder",
+                            "hours": 48,
+                            "fileName": "email_user_ueben_2.json",
+                            "logic": {
+                                "type": "isDone",
+                                "assignment": "assignment4",
+                                "lesson": "lesson3"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lesson4",
+            "image": "presentingLesson4Image",
+            "index": 3,
+            "icon": "video camera",
+            "title": "presentingLesson4Title",
+            "pdf": "presentingLesson4PDF",
+            "popupMessage": "presentingLesson4PopupMessage",
+            "assignments": [
+                {
+                    "index": 0,
+                    "name": "assignment1",
+                    "icon": "file alternate",
+                    "title": "presentingLesson4Assign1Title",
+                    "pdf_attach": "presentingLesson4Assign1PDF",
+                    "PDFname": "presentingLesson4Assign1PDFName",
+                    "PDFPreview": "presentingLesson4Assign1PDFPreview",
+                    "text": "presentingLesson4Assign1Text",
+                    "checkBox": "true",
+                    "checkBoxText": "presentingLesson4Assign1CheckboxText",
+                    "type": "read",
+                    "time": "presentingLesson4Assign1Time",
+                    "email": false
+                },
+                {
+                    "index": 1,
+                    "name": "assignment2",
+                    "icon": "video camera",
+                    "title": "presentingLesson4Assign2Title",
+                    "text": "presentingLesson4Assign2Text",
+                    "type": "video",
+                    "time": "presentingLesson4Assign2Time",
+                    "email": true,
+                    "email_info": [
+                        {
+                            "type": "video",
+                            "recipient": "simon@vcoach.ai"
+                        }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "assignment3",
+                    "icon": "file pdf",
+                    "title": "presentingLesson4Assign3Title",
+                    "type": "feedback",
+                    "PDFPreviewGray": "presentingLesson4Assign3PDFPreviewGray",
+                    "PDFPreview": "presentingLesson4Assign3PDFPreview",
+                    "alternative_text": "presentingLesson4Assign3AlternativeText",
+                    "text": "presentingLesson4Assign3Text",
+                    "checkBox": "true",
+                    "checkBoxText": "presentingLesson4Assign3CheckboxText",
+                    "time": "presentingLesson4Assign3Time",
+                    "email": false
+                },
+                {
+                    "index": 3,
+                    "name": "assignment4",
+                    "icon": "pencil alternate",
+                    "title": "presentingLesson4Assign4Title",
+                    "alternative_text": "presentingLesson4Assign4AlternativeText",
+                    "text": "presentingLesson4Assign4Text",
+                    "checkBox": "true",
+                    "checkBoxText": "presentingLesson4Assign4CheckboxText",
+                    "type": "exercise",
+                    "PDFPreviewGrayGray": "presentingLesson4Assign4PDFPreviewGray",
+                    "PDFPreview": "presentingLesson4Assign4PDFPreview",
+                    "time": "presentingLesson4Assign4Time",
+                    "email": true,
+                    "email_info": [
+                        {
+                            "type": "feedback",
+                            "variables":{"round": "_3"},
+                            "fileName": "email_feedback_ready.json"
+                        },
+                        {
+                            "type": "reminder",
+                            "hours": 48,
+                            "fileName": "email_user_ueben_3.json",
+                            "logic": {
+                                "type": "isDone",
+                                "assignment": "assignment4",
+                                "lesson": "lesson4"
+                            }
+                        },
+                        {
+                            "type": "reminder",
+                            "hours": 120,
+                            "fileName": "email_user_finish.json",
+                            "logic": {
+                                "type": "isDone",
+                                "assignment": "assignment4",
+                                "lesson": "lesson6"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lesson5",
+            "image": "presentingLesson5Image",
+            "index": 4,
+            "icon": "file",
+            "title": "presentingLesson5Title",
+            "pdf": "presentingLesson5PDF",
+            "popupMessage": "presentingLesson5PopupMessage",
+            "assignments": [
+                {
+                    "index": 0,
+                    "name": "assignment1",
+                    "icon": "file alternate",
+                    "title": "presentingLesson5Assign1Title",
+                    "pdf_attach": "presentingLesson5Assign1PDF",
+                    "PDFname": "presentingLesson5Assign1PDFName",
+                    "PDFPreview": "presentingLesson5Assign1PDFPreview",
+                    "type": "read",
+                    "text": "presentingLesson5Assign1Text",
+                    "checkBox": "true",
+                    "checkBoxText": "presentingLesson5Assign1CheckboxText",
+                    "time": "presentingLesson5Assign1Time",
+                    "email": true,
+                    "email_info": [
+                        {
+                            "type": "storyline",
+                            "recipient": "simon@vcoach.ai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lesson6",
+            "image": "presentingLesson6Image",
+            "index": 5,
+            "icon": "trophy",
+            "title": "presentingLesson6Title",
+            "assignments": [
+                {
+                    "index": 0,
+                    "name": "assignment1",
+                    "icon": "file alternate",
+                    "title": "presentingLesson6Assign1Title",
+                    "type": "read",
+                    "text": "presentingLesson6Assign1Text",
+                    "time": "presentingLesson6Assign1Time",
+                    "checkBox": false,
+                    "email": false
+                },
+                {
+                    "index": 1,
+                    "name": "assignment2",
+                    "customIcon": "presentingLesson6Assign2CustomIcon",
+                    "title": "presentingLesson6Assign2Title",
+                    "type": "read",
+                    "text": "presentingLesson6Assign2Text",
+                    "checkBox": false,
+                    "time": "presentingLesson6Assign2Time",
+                    "email": false,
+                    "docs": [
+                        {
+                            "id": 1,
+                            "name": "presentingLesson6Assign2Doc1Name",
+                            "pdf": "presentingLesson6Assign2Doc1PDF",
+                            "text": "presentingLesson6Assign2Doc1Text"
+                        },
+                        {
+                            "id": 2,
+                            "name": "presentingLesson6Assign2Doc2Name",
+                            "pdf": "presentingLesson6Assign2Doc2PDF",
+                            "text": "presentingLesson6Assign2Doc2Text"
+                        },
+                        {
+                            "id": 3,
+                            "name": "presentingLesson6Assign2Doc3Name",
+                            "pdf": "presentingLesson6Assign2Doc3PDF",
+                            "text": "presentingLesson6Assign2Doc3Text"
+                        },
+                        {
+                            "id": 4,
+                            "name": "presentingLesson6Assign2Doc4Name",
+                            "pdf": "presentingLesson6Assign2Doc4PDF",
+                            "text": "presentingLesson6Assign2Doc4Text"
+                        },
+                        {
+                            "id": 5,
+                            "name": "presentingLesson6Assign2Doc5Name",
+                            "pdf": "presentingLesson6Assign2Doc5PDF",
+                            "text": "presentingLesson6Assign2Doc5Text"
+                        },
+                        {
+                            "id": 6,
+                            "name": "presentingLesson6Assign2Doc6Name",
+                            "pdf": "presentingLesson6Assign2Doc6PDF",
+                            "text": "presentingLesson6Assign2Doc6Text"
+                        }
+                    ]
+                },
+                {
+                    "index": 2,
+                    "name": "assignment3",
+                    "icon": "pencil alternate",
+                    "title": "presentingLesson6Assign3Title",
+                    "type": "questionary",
+                    "questionary": true,
+                    "initial_text": "presentingLesson6Assign3Text",
+                    "checkBox": false,
+                    "time": "presentingLesson6Assign3Time",
+                    "email": true,
+                    "email_info": [
+                        {
+                            "type": "questionary",
+                            "recipient": "simon@vcoach.ai,stephanie.mayer@vcoach.ai"
+                        }
+                    ],
+                    "questions": [
+                        {
+                            "id": 1,
+                            "question": "presentingLesson6Assign3Question1",
+                            "type": "dropdown",
+                            "required": false,
+                            "answers": [
+                                {
+                                    "id": 1,
+                                    "answer": "presentingLesson6Assign3Question1Option1"
+                                },
+                                {
+                                    "id": 2,
+                                    "answer": "presentingLesson6Assign3Question1Option2"
+                                },
+                                {
+                                    "id": 3,
+                                    "answer": "presentingLesson6Assign3Question1Option3"
+                                },
+                                {
+                                    "id": 4,
+                                    "answer": "presentingLesson6Assign3Question1Option4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "question": "presentingLesson6Assign3Question2",
+                            "type": "dropdown",
+                            "required": false,
+                            "answers": [
+                                {
+                                    "id": 1,
+                                    "answer": "presentingLesson6Assign3Question2Option1"
+                                },
+                                {
+                                    "id": 2,
+                                    "answer": "presentingLesson6Assign3Question2Option2"
+                                },
+                                {
+                                    "id": 3,
+                                    "answer": "presentingLesson6Assign3Question2Option3"
+                                },
+                                {
+                                    "id": 4,
+                                    "answer": "presentingLesson6Assign3Question2Option4"
+                                },
+                                {
+                                    "id": 5,
+                                    "answer": "presentingLesson6Assign3Question2Option5"
+                                },
+                                {
+                                    "id": 6,
+                                    "answer": "presentingLesson6Assign3Question2Option6"
+                                },
+                                {
+                                    "id": 7,
+                                    "answer": "presentingLesson6Assign3Question2Option7"
+                                },
+                                {
+                                    "id": 8,
+                                    "answer": "presentingLesson6Assign3Question2Option8"
+                                },
+                                {
+                                    "id": 9,
+                                    "answer": "presentingLesson6Assign3Question2Option9"
+                                },
+                                {
+                                    "id": 10,
+                                    "answer": "presentingLesson6Assign3Question2Option10"
+                                },
+                                {
+                                    "id": 11,
+                                    "answer": "presentingLesson6Assign3Question2Option11"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "question": "presentingLesson6Assign3Question3",
+                            "type": "input",
+                            "required": false
+                        },
+                        {
+                            "id": 4,
+                            "question": "presentingLesson6Assign3Question4",
+                            "type": "input",
+                            "required": false
+                        },
+                        {
+                            "id": 5,
+                            "question": "presentingLesson6Assign3Question5",
+                            "type": "dropdown",
+                            "required": false,
+                            "answers": [
+                                {
+                                    "id": 1,
+                                    "answer": "presentingLesson6Assign3Question5Option1"
+                                },
+                                {
+                                    "id": 2,
+                                    "answer": "presentingLesson6Assign3Question5Option2"
+                                },
+                                {
+                                    "id": 3,
+                                    "answer": "presentingLesson6Assign3Question5Option3"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 6,
+                            "question": "presentingLesson6Assign3Question6",
+                            "type": "multi",
+                            "required": false,
+                            "answers": [
+                                {
+                                    "id": 1,
+                                    "answer": "presentingLesson6Assign3Question6Option1"
+                                },
+                                {
+                                    "id": 2,
+                                    "answer": "presentingLesson6Assign3Question6Option2"
+                                },
+                                {
+                                    "id": 3,
+                                    "answer": "presentingLesson6Assign3Question6Option3"
+                                },
+                                {
+                                    "id": 4,
+                                    "answer": "presentingLesson6Assign3Question6Option4"
+                                },
+                                {
+                                    "id": 5,
+                                    "answer": "presentingLesson6Assign3Question6Option5"
+                                },
+                                {
+                                    "id": 6,
+                                    "answer": "presentingLesson6Assign3Question6Option6"
+                                },
+                                {
+                                    "id": 7,
+                                    "answer": "presentingLesson6Assign3Question6Option7"
+                                },
+                                {
+                                    "id": 8,
+                                    "answer": "presentingLesson6Assign3Question6Option8"
+                                },
+                                {
+                                    "id": 9,
+                                    "answer": "presentingLesson6Assign3Question6Option9"
+                                },
+                                {
+                                    "id": 10,
+                                    "answer": "presentingLesson6Assign3Question6Option10"
+                                },
+                                {
+                                    "id": 11,
+                                    "answer": "presentingLesson6Assign3Question6Option11"
+                                },
+                                {
+                                    "id": 12,
+                                    "answer": "presentingLesson6Assign3Question6Option12"
+                                },
+                                {
+                                    "id": 13,
+                                    "answer": "presentingLesson6Assign3Question6Option13"
+                                },
+                                {
+                                    "id": 14,
+                                    "answer": "presentingLesson6Assign3Question6Option14"
+                                },
+                                {
+                                    "id": 15,
+                                    "answer": "presentingLesson6Assign3Question6Option15"
+                                },
+                                {
+                                    "id": 16,
+                                    "answer": "presentingLesson6Assign3Question6Option16"
+                                },
+                                {
+                                    "id": 17,
+                                    "answer": "presentingLesson6Assign3Question6Option17"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "question": "presentingLesson6Assign3Question7",
+                            "type": "multi",
+                            "required": false,
+                            "answers": [
+                                {
+                                    "id": 1,
+                                    "answer": "presentingLesson6Assign3Question7Option1"
+                                },
+                                {
+                                    "id": 2,
+                                    "answer": "presentingLesson6Assign3Question7Option2"
+                                },
+                                {
+                                    "id": 3,
+                                    "answer": "presentingLesson6Assign3Question7Option3"
+                                },
+                                {
+                                    "id": 4,
+                                    "answer": "presentingLesson6Assign3Question7Option4"
+                                },
+                                {
+                                    "id": 5,
+                                    "answer": "presentingLesson6Assign3Question7Option5"
+                                },
+                                {
+                                    "id": 6,
+                                    "answer": "presentingLesson6Assign3Question7Option6"
+                                },
+                                {
+                                    "id": 7,
+                                    "answer": "presentingLesson6Assign3Question7Option7"
+                                },
+                                {
+                                    "id": 8,
+                                    "answer": "presentingLesson6Assign3Question7Option8"
+                                },
+                                {
+                                    "id": 9,
+                                    "answer": "presentingLesson6Assign3Question7Option9"
+                                },
+                                {
+                                    "id": 10,
+                                    "answer": "presentingLesson6Assign3Question7Option10"
+                                },
+                                {
+                                    "id": 11,
+                                    "answer": "presentingLesson6Assign3Question7Option11"
+                                },
+                                {
+                                    "id": 12,
+                                    "answer": "presentingLesson6Assign3Question7Option12"
+                                },
+                                {
+                                    "id": 13,
+                                    "answer": "presentingLesson6Assign3Question7Option13"
+                                },
+                                {
+                                    "id": 14,
+                                    "answer": "presentingLesson6Assign3Question7Option14"
+                                },
+                                {
+                                    "id": 15,
+                                    "answer": "presentingLesson6Assign3Question7Option15"
+                                },
+                                {
+                                    "id": 16,
+                                    "answer": "presentingLesson6Assign3Question7Option16"
+                                },
+                                {
+                                    "id": 17,
+                                    "answer": "presentingLesson6Assign3Question7Option17"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 8,
+                            "question": "presentingLesson6Assign3Question8",
+                            "type": "multi",
+                            "required": false,
+                            "answers": [
+                                {
+                                    "id": 1,
+                                    "answer": "presentingLesson6Assign3Question8Option1"
+                                },
+                                {
+                                    "id": 2,
+                                    "answer": "presentingLesson6Assign3Question8Option2"
+                                },
+                                {
+                                    "id": 3,
+                                    "answer": "presentingLesson6Assign3Question8Option3"
+                                },
+                                {
+                                    "id": 4,
+                                    "answer": "presentingLesson6Assign3Question8Option4"
+                                },
+                                {
+                                    "id": 5,
+                                    "answer": "presentingLesson6Assign3Question8Option5"
+                                },
+                                {
+                                    "id": 6,
+                                    "answer": "presentingLesson6Assign3Question8Option6"
+                                },
+                                {
+                                    "id": 7,
+                                    "answer": "presentingLesson6Assign3Question8Option7"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 9,
+                            "question": "presentingLesson6Assign3Question9",
+                            "type": "input",
+                            "required": false
+                        }
+                    ]
+                },
+                {
+                    "index": 3,
+                    "name": "assignment4",
+                    "icon": "trophy",
+                    "title": "presentingLesson6Assign4Title",
+                    "type": "certificate",
+                    "PDFPreviewGray": "presentingLesson6Assign4PDFPreviewGray",
+                    "PDFPreview": "presentingLesson6Assign4PDFPreview",
+                    "alternative_text": "presentingLesson6Assign4AlternativeText",
+                    "text": "presentingLesson6Assign4Text",
+                    "checkBox": false,
+                    "certificate": true,
+                    "certificateName": "presentingLesson6Assign4Certificate",
+                    "time": "presentingLesson6Assign4Time",
+                    "email": true,
+                    "email_info": [{
+                        "type": "certificate",
+                        "fileName":"email_certificate_ready.json"
+                    }]
+                }
+            ]
+        }
+    ]
+}

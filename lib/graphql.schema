@@ -1,0 +1,92 @@
+type User @model
+  @key(fields: ["userType", "createdAt"], name: "usersByDate", queryField: "listUsersByDate")
+  @auth(rules: [
+    { allow: owner },
+    { allow: groups, groups: ["admins"] }
+  ])
+{
+  id: ID!
+  owner: String
+  firstName: String
+  lastName: String
+  email: String!
+  acceptedTOC: Boolean
+  profile_photo: String
+  userIdentityId: String
+  searchString: String
+  language_default: String
+  theme: String
+  userType: String
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  course: [Course] @connection(name: "UserCourse")
+}
+
+type Video {
+  url: String
+  url_1200kbs: String
+  url_thumbnail: String
+  language: String
+  topic: String
+}
+
+type PDF {
+  url: String
+}
+
+type Quiz {
+  index_question: Int
+  index_answer: Int
+  questionary_answer: [String]
+}
+
+enum Content_Type {
+  read
+  quiz
+  video
+  feedback
+  exercise
+  watch
+  certificate
+  questionary
+}
+
+type Content {
+  video: Video
+  pdf: PDF
+  quiz: [Quiz]
+}
+
+type Assignment {
+  name: String
+  content_type: Content_Type
+  done: Boolean
+  content: Content
+  date: AWSDateTime
+}
+
+type LessonContent {
+    name: String
+    done: Boolean
+    assignments: [Assignment]
+}
+
+type Course @model
+  @key(fields: ["name", "updatedAt"], name: "coursesByUpdate", queryField: "listCoursesByUpdate")
+  @auth(rules: [
+    { allow: owner },
+    { allow: groups, groups: ["admins"] }
+  ]){
+    id: ID!
+    name: String!
+    relationship: String!
+    status: String
+    searchString: String
+    userIdentityId: String!
+    user: User @connection(name: "UserCourse")
+    lessons: [LessonContent]
+    owner: String
+    updatedAt: AWSDateTime
+    createdAt: AWSDateTime
+
+}
