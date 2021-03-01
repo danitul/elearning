@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2021_03_01_155740) do
 
   create_table "assignments", force: :cascade do |t|
     t.string "name"
-    t.string "content_type"
+    t.integer "content_type"
     t.string "content_url"
     t.string "is_done", default: "0"
     t.bigint "lesson_id"

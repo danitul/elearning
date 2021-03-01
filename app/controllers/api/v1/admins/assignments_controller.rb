@@ -5,7 +5,6 @@ class Api::V1::Admins::AssignmentsController < ApplicationController
       assignment = Assignment.find_by(id: params[:id], lesson_id: params[:lesson_id], content_type: params[:content_type].to_i)
 
       if assignment
-        byebug
         render json: assignment, status: 200
       else
         render json: { errors: "Assignment with id #{params[:id]} was not found"}, status: 404

@@ -28,7 +28,7 @@ class Api::V1::Admins::AssignmentsControllerTest < ActionDispatch::IntegrationTe
         assert_equal assignment.content_type, json['content_type']
         assert_equal assignment.content_url, json['content_url']
         assert_equal assignment.is_done, json['is_done']
-        assert_true assignment.video?
+        assert_equal true, assignment.video?
       end
 
       it 'should return not found error if assignment not found' do
