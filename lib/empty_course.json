@@ -1,0 +1,239 @@
+{
+ "id": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6",
+ "__typename": "Course",
+ "courseUserId": "8cf3f902-9766-48ef-b056-9bed945be306",
+ "searchString": "enrolled 8cf3f902-9766-48ef-b056-9bed945be306 tobias undefined tobias.hoelzer@gmail.com eu-central-1:dccc3ee6-3b3a-4567-9269-59d9831eaa05 0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6",
+ "updatedAt": "2021-03-01T11:44:52.552Z",
+ "userIdentityId": "eu-central-1:dccc3ee6-3b3a-4567-9269-59d9831eaa05",
+ "status": "enrolled",
+ "createdAt": "2021-03-01T11:44:52.552Z",
+ "owner": "8cf3f902-9766-48ef-b056-9bed945be306",
+ "lessons": [
+  {
+   "name": "lesson1",
+   "done": true,
+   "assignments": [
+    {
+     "date": "2021-02-26T08:58:29.922Z",
+     "name": "assignment1",
+     "content_type": "watch",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": null
+     }
+    },
+    {
+     "date": "2021-02-26T08:58:31.974Z",
+     "name": "assignment2",
+     "content_type": "read",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": null
+     }
+    },
+    {
+     "date": "2021-02-26T08:58:43.444Z",
+     "name": "assignment3",
+     "content_type": "quiz",
+     "done": true,
+     "content": {
+      "quiz": [
+       {
+        "questionary_answer": null,
+        "index_answer": 2,
+        "index_question": 0
+       },
+       {
+        "questionary_answer": null,
+        "index_answer": 3,
+        "index_question": 1
+       },
+       {
+        "questionary_answer": null,
+        "index_answer": 3,
+        "index_question": 2
+       },
+       {
+        "questionary_answer": null,
+        "index_answer": 3,
+        "index_question": 3
+       },
+       {
+        "questionary_answer": null,
+        "index_answer": 2,
+        "index_question": 4
+       }
+      ],
+      "pdf": null,
+      "video": null
+     }
+    }
+   ]
+  },
+  {
+   "name": "lesson2",
+   "done": false,
+   "assignments": [
+    {
+     "date": "2021-02-26T08:58:56.722Z",
+     "name": "assignment1",
+     "content_type": "read",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": null
+     }
+    },
+    {
+     "date": "2021-02-26T09:39:28.117Z",
+     "name": "assignment2",
+     "content_type": "video",
+     "done": true,
+     "content": {
+      "video": {
+       "topic": "",
+       "language": "{key=de, text=Deutsch, value=de-DE}",
+       "url": "5a68bcf0-c4c5-43cf-9dcf-d80be175b06b/1614332368117/1614332368117_steffi_example.webm"
+      }
+     }
+    },
+    {
+     "date": null,
+     "name": "assignment3",
+     "content_type": "feedback",
+     "done": false,
+     "content": null
+    },
+    {
+     "date": null,
+     "name": "assignment4",
+     "content_type": "exercise",
+     "done": false,
+     "content": null
+    }
+   ]
+  },
+  {
+   "name": "lesson3",
+   "done": null,
+   "assignments": [
+    {
+     "date": null,
+     "name": "assignment1",
+     "content_type": "read",
+     "done": false,
+     "content": null
+    },
+    {
+     "date": null,
+     "name": "assignment2",
+     "content_type": "video",
+     "done": false,
+     "content": null
+    },
+    {
+     "date": null,
+     "name": "assignment3",
+     "content_type": "feedback",
+     "done": false,
+     "content": null
+    },
+    {
+     "date": null,
+     "name": "assignment4",
+     "content_type": "exercise",
+     "done": false,
+     "content": null
+    }
+   ]
+  },
+  {
+   "name": "lesson4",
+   "done": null,
+   "assignments": [
+    {
+     "date": null,
+     "name": "assignment1",
+     "content_type": "read",
+     "done": false,
+     "content": null
+    },
+    {
+     "date": null,
+     "name": "assignment2",
+     "content_type": "video",
+     "done": false,
+     "content": null
+    },
+    {
+     "date": null,
+     "name": "assignment3",
+     "content_type": "feedback",
+     "done": false,
+     "content": null
+    },
+    {
+     "date": null,
+     "name": "assignment4",
+     "content_type": "exercise",
+     "done": false,
+     "content": null
+    }
+   ]
+  },
+  {
+   "name": "lesson5",
+   "done": null,
+   "assignments": [
+    {
+     "date": null,
+     "name": "assignment1",
+     "content_type": "read",
+     "done": false,
+     "content": null
+    }
+   ]
+  },
+  {
+   "name": "lesson6",
+   "done": null,
+   "assignments": [
+    {
+     "date": null,
+     "name": "assignment1",
+     "content_type": "read",
+     "done": false,
+     "content": null
+    },
+    {
+     "date": null,
+     "name": "assignment2",
+     "content_type": "read",
+     "done": false,
+     "content": null
+    },
+    {
+     "date": null,
+     "name": "assignment3",
+     "content_type": "questionary",
+     "done": false,
+     "content": null
+    },
+    {
+     "date": null,
+     "name": "assignment4",
+     "content_type": "certificate",
+     "done": false,
+     "content": null
+    }
+   ]
+  }
+ ],
+ "name": "presenting",
+ "relationship": "pupil"
+}

@@ -1,0 +1,329 @@
+{
+ "id": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6",
+ "__typename": "Course",
+ "courseUserId": "8cf3f902-9766-48ef-b056-9bed945be306",
+ "searchString": "completed 8cf3f902-9766-48ef-b056-9bed945be306 tobias undefined tobias.hoelzer@gmail.com eu-central-1:dccc3ee6-3b3a-4567-9269-59d9831eaa05 0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6",
+ "updatedAt": "2021-03-01T11:49:07.819Z",
+ "userIdentityId": "eu-central-1:dccc3ee6-3b3a-4567-9269-59d9831eaa05",
+ "status": "completed",
+ "createdAt": "2021-03-01T11:44:52.552Z",
+ "owner": "8cf3f902-9766-48ef-b056-9bed945be306",
+ "lessons": [
+  {
+   "name": "lesson1",
+   "done": true,
+   "assignments": [
+    {
+     "date": "2021-03-01T11:45:04.460Z",
+     "name": "assignment1",
+     "content_type": "watch",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": null
+     }
+    },
+    {
+     "date": "2021-03-01T11:45:09.514Z",
+     "name": "assignment2",
+     "content_type": "read",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": null
+     }
+    },
+    {
+     "date": "2021-03-01T11:45:17.907Z",
+     "name": "assignment3",
+     "content_type": "quiz",
+     "done": true,
+     "content": {
+      "quiz": [
+       {
+        "questionary_answer": null,
+        "index_answer": 1,
+        "index_question": 0
+       },
+       {
+        "questionary_answer": null,
+        "index_answer": 2,
+        "index_question": 1
+       },
+       {
+        "questionary_answer": null,
+        "index_answer": 1,
+        "index_question": 2
+       },
+       {
+        "questionary_answer": null,
+        "index_answer": 2,
+        "index_question": 3
+       },
+       {
+        "questionary_answer": null,
+        "index_answer": 3,
+        "index_question": 4
+       }
+      ],
+      "pdf": null,
+      "video": null
+     }
+    }
+   ]
+  },
+  {
+   "name": "lesson2",
+   "done": true,
+   "assignments": [
+    {
+     "date": "2021-03-01T11:45:22.979Z",
+     "name": "assignment1",
+     "content_type": "read",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": null
+     }
+    },
+    {
+     "date": "2021-03-01T11:45:37.091Z",
+     "name": "assignment2",
+     "content_type": "video",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": {
+       "topic": "cats",
+       "language": "{key=de, text=Deutsch, value=de-DE}",
+       "url_1200kbs": null,
+       "url_thumbnail": null,
+       "url": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6/1614599137091/1614599137091_steffi_example.webm"
+      }
+     }
+    },
+    {
+     "date": "2021-03-01T11:46:22.669Z",
+     "name": "assignment3",
+     "content_type": "feedback",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": {
+       "url": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6/1614599137091/1614599162256_vCOACH_Übungen_NEU.pdf"
+      },
+      "video": null
+     }
+    },
+    {
+     "date": "2021-03-01T11:46:25.923Z",
+     "name": "assignment4",
+     "content_type": "exercise",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": {
+       "url": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6/1614599137091/1614599171359_vCOACH_Feedback_2.pdf"
+      },
+      "video": null
+     }
+    }
+   ]
+  },
+  {
+   "name": "lesson3",
+   "done": true,
+   "assignments": [
+    {
+     "date": "2021-03-01T11:46:38.868Z",
+     "name": "assignment1",
+     "content_type": "read",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": null
+     }
+    },
+    {
+     "date": "2021-03-01T11:46:46.657Z",
+     "name": "assignment2",
+     "content_type": "video",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": {
+       "topic": "asdf",
+       "language": "{key=de, text=Deutsch, value=de-DE}",
+       "url_1200kbs": null,
+       "url_thumbnail": null,
+       "url": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6/1614599206657/1614599206657_steffi_example.webm"
+      }
+     }
+    },
+    {
+     "date": "2021-03-01T11:47:24.911Z",
+     "name": "assignment3",
+     "content_type": "feedback",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": {
+       "url": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6/1614599206657/1614599224642_vCOACH_Feedback_2.pdf"
+      },
+      "video": null
+     }
+    },
+    {
+     "date": "2021-03-01T11:47:27.938Z",
+     "name": "assignment4",
+     "content_type": "exercise",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": {
+       "url": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6/1614599206657/1614599234305_vCOACH_Übungen_NEU_3.pdf"
+      },
+      "video": null
+     }
+    }
+   ]
+  },
+  {
+   "name": "lesson4",
+   "done": true,
+   "assignments": [
+    {
+     "date": "2021-03-01T11:47:37.859Z",
+     "name": "assignment1",
+     "content_type": "read",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": null
+     }
+    },
+    {
+     "date": "2021-03-01T11:47:47.583Z",
+     "name": "assignment2",
+     "content_type": "video",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": {
+       "topic": "",
+       "language": "{key=en, text=English, value=en-US}",
+       "url_1200kbs": null,
+       "url_thumbnail": null,
+       "url": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6/1614599267583/1614599267583_steffi_example.webm"
+      }
+     }
+    },
+    {
+     "date": "2021-03-01T11:48:34.737Z",
+     "name": "assignment3",
+     "content_type": "feedback",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": {
+       "url": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6/1614599267583/1614599288723_vCOACH_Übungen_NEU.pdf"
+      },
+      "video": null
+     }
+    },
+    {
+     "date": "2021-03-01T11:48:37.377Z",
+     "name": "assignment4",
+     "content_type": "exercise",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": {
+       "url": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6/1614599267583/1614599298100_vCOACH_Übungen_NEU_3.pdf"
+      },
+      "video": null
+     }
+    }
+   ]
+  },
+  {
+   "name": "lesson5",
+   "done": true,
+   "assignments": [
+    {
+     "date": "2021-03-01T11:48:42.085Z",
+     "name": "assignment1",
+     "content_type": "read",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": null
+     }
+    }
+   ]
+  },
+  {
+   "name": "lesson6",
+   "done": true,
+   "assignments": [
+    {
+     "date": "2021-03-01T11:48:49.492Z",
+     "name": "assignment1",
+     "content_type": "read",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": null
+     }
+    },
+    {
+     "date": "2021-03-01T11:48:55.796Z",
+     "name": "assignment2",
+     "content_type": "read",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": null,
+      "video": null
+     }
+    },
+    {
+     "date": "2021-03-01T11:48:58.445Z",
+     "name": "assignment3",
+     "content_type": "questionary",
+     "done": true,
+     "content": {
+      "quiz": [],
+      "pdf": null,
+      "video": null
+     }
+    },
+    {
+     "date": "2021-03-01T11:49:07.756Z",
+     "name": "assignment4",
+     "content_type": "certificate",
+     "done": true,
+     "content": {
+      "quiz": null,
+      "pdf": {
+       "url": "0cadc8da-09e3-411b-ab7e-8a9f17ceb3e6/certificates/1614599306782_certificate_vcoach.pdf"
+      },
+      "video": null
+     }
+    }
+   ]
+  }
+ ],
+ "name": "presenting",
+ "relationship": "pupil"
+}
