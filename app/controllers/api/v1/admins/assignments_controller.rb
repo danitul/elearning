@@ -18,5 +18,27 @@ class Api::V1::Admins::AssignmentsController < ApplicationController
     true
   end
 
+  def create
+    if user_is_admin?
+      assignment = Assignment.create(
+        lesson_id: params[:lesson_id],
+        content_type: assignment_params[:content_type].to_i,
+        content_url: assignment_params[:content_url]
+      )
+
+      if assignment.save
+        render json: assignment, status: 201
+      else
+        render json: { errors: assignment.errors }, status: 422
+      end
+    else
+      render json: { errors: "Not enough access rights" }, status: 401
+    end
+  end
+
+  def assignment_params
+    params.require(:assignment).permit(:name, :content_type, :content_url, :lesson_id).to_h
+  end
+
 end
 
