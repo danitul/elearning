@@ -12,7 +12,7 @@ Rails.application.routes.draw do
       resources :lessons, only: [] do
         resources :assignments, only: [:update]
       end
-      
+
     end
   end
 end
